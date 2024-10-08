@@ -32,6 +32,49 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- CONTAINER NAVBAR -->
+        <div class="container-sm">
+          <!-- LOGO + NOME -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/duck.png"
+              alt="Logo"
+              width="60"
+              height="60"
+              class="d-inline-block"
+            />
+            <span class="navbar-brand mb-0 h1 d-none">Catalogo Libri</span>
+          </a>
+
+          <!-- BOTTONE MENU -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- LINK NAVBAR -->
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <!-- BOOTSTRAP JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
