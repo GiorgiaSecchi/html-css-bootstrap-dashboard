@@ -118,24 +118,26 @@
                 </div>
             </div>
 
-            <div class="col">
-                <label class="form-label">Genere</label>
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Scegli il genere</option>
-                    <option value="1">Giallo</option>
-                    <option value="2">Fantasy</option>
-                    <option value="3">Biografia</option>
-                </select>
-            </div>
-
-            <div class="col">
-                <label for="AnnoPubblicazione" class="form-label">Anno di Pubblicazione</label>
-                <input type="text" class="form-control" id="AnnoPubblicazione" placeholder="Inserisci l'anno">
-            </div>
-
-            <div class="col">
-                <label for="isbn#" class="form-label">ISBN#</label>
-                <input type="text" class="form-control" id="isbn#" placeholder="Inserisci il codice ISBN#">
+            <div class="row">
+                <div class="col col-md-4">
+                    <label class="form-label">Genere</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Scegli il genere</option>
+                        <option value="1">Giallo</option>
+                        <option value="2">Fantasy</option>
+                        <option value="3">Biografia</option>
+                    </select>
+                </div>
+    
+                <div class="col col-md-4">
+                    <label for="AnnoPubblicazione" class="form-label">Anno di Pubblicazione</label>
+                    <input type="text" class="form-control" id="AnnoPubblicazione" placeholder="Inserisci l'anno">
+                </div>
+    
+                <div class="col col-md-4">
+                    <label for="isbn#" class="form-label">ISBN#</label>
+                    <input type="text" class="form-control" id="isbn#" placeholder="Inserisci il codice ISBN#">
+                </div>
             </div>
 
             <hr>
@@ -143,6 +145,19 @@
             <div class="col">
                 <label for="Note" class="form-label">Note</label>
                 <textarea class="form-control" id="Note" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Disponibile anche in digitale
+                  </label>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Aggiungi il libro</button>
             </div>
         </div>
      
